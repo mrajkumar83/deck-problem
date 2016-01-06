@@ -1,0 +1,6 @@
+
+/* sadly, IE8 and lower cannot cope with the :nth-child(n) selector */
+.playingCards ul.hand li,
+.playingCards ul.deck li {
+    position: static;
+}
